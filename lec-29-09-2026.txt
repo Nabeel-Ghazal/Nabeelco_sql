@@ -1,0 +1,461 @@
+SQL> selecr * from emp;
+SP2-0734: unknown command beginning "selecr * f..." - rest of line ignored.
+SQL> select * from emp;
+
+     EMPNO ENAME      JOB              MGR HIREDATE         SAL       COMM      
+---------- ---------- --------- ---------- --------- ---------- ----------      
+    DEPTNO                                                                      
+----------                                                                      
+      7369 SMITH      CLERK           7902 17-DEC-80        800                 
+        20                                                                      
+                                                                                
+      7499 ALLEN      SALESMAN        7698 20-FEB-81       1600        300      
+        30                                                                      
+                                                                                
+      7521 WARD       SALESMAN        7698 22-FEB-81       1250        500      
+        30                                                                      
+                                                                                
+
+     EMPNO ENAME      JOB              MGR HIREDATE         SAL       COMM      
+---------- ---------- --------- ---------- --------- ---------- ----------      
+    DEPTNO                                                                      
+----------                                                                      
+      7566 JONES      MANAGER         7839 02-APR-81       2975                 
+        20                                                                      
+                                                                                
+      7654 MARTIN     SALESMAN        7698 28-SEP-81       1250       1400      
+        30                                                                      
+                                                                                
+      7698 BLAKE      MANAGER         7839 01-MAY-81       2850                 
+        30                                                                      
+                                                                                
+
+     EMPNO ENAME      JOB              MGR HIREDATE         SAL       COMM      
+---------- ---------- --------- ---------- --------- ---------- ----------      
+    DEPTNO                                                                      
+----------                                                                      
+      7782 CLARK      MANAGER         7839 09-JUN-81       2450                 
+        10                                                                      
+                                                                                
+      7788 SCOTT      ANALYST         7566 19-APR-87       3000                 
+        20                                                                      
+                                                                                
+      7839 KING       PRESIDENT            17-NOV-81       5000                 
+        10                                                                      
+                                                                                
+
+     EMPNO ENAME      JOB              MGR HIREDATE         SAL       COMM      
+---------- ---------- --------- ---------- --------- ---------- ----------      
+    DEPTNO                                                                      
+----------                                                                      
+      7844 TURNER     SALESMAN        7698 08-SEP-81       1500          0      
+        30                                                                      
+                                                                                
+      7876 ADAMS      CLERK           7788 23-MAY-87       1100                 
+        20                                                                      
+                                                                                
+      7900 JAMES      CLERK           7698 03-DEC-81        950                 
+        30                                                                      
+                                                                                
+
+     EMPNO ENAME      JOB              MGR HIREDATE         SAL       COMM      
+---------- ---------- --------- ---------- --------- ---------- ----------      
+    DEPTNO                                                                      
+----------                                                                      
+      7902 FORD       ANALYST         7566 03-DEC-81       3000                 
+        20                                                                      
+                                                                                
+      7934 MILLER     CLERK           7782 23-JAN-82       1300                 
+        10                                                                      
+                                                                                
+
+14 rows selected.
+
+SQL> set linesize 500
+SQL> set pagesize 30
+SQL> select * from emp;
+
+     EMPNO ENAME      JOB              MGR HIREDATE         SAL       COMM     DEPTNO                                                                                                                                                                                                                                                                                                                                                                                                                               
+---------- ---------- --------- ---------- --------- ---------- ---------- ----------                                                                                                                                                                                                                                                                                                                                                                                                                               
+      7369 SMITH      CLERK           7902 17-DEC-80        800                    20                                                                                                                                                                                                                                                                                                                                                                                                                               
+      7499 ALLEN      SALESMAN        7698 20-FEB-81       1600        300         30                                                                                                                                                                                                                                                                                                                                                                                                                               
+      7521 WARD       SALESMAN        7698 22-FEB-81       1250        500         30                                                                                                                                                                                                                                                                                                                                                                                                                               
+      7566 JONES      MANAGER         7839 02-APR-81       2975                    20                                                                                                                                                                                                                                                                                                                                                                                                                               
+      7654 MARTIN     SALESMAN        7698 28-SEP-81       1250       1400         30                                                                                                                                                                                                                                                                                                                                                                                                                               
+      7698 BLAKE      MANAGER         7839 01-MAY-81       2850                    30                                                                                                                                                                                                                                                                                                                                                                                                                               
+      7782 CLARK      MANAGER         7839 09-JUN-81       2450                    10                                                                                                                                                                                                                                                                                                                                                                                                                               
+      7788 SCOTT      ANALYST         7566 19-APR-87       3000                    20                                                                                                                                                                                                                                                                                                                                                                                                                               
+      7839 KING       PRESIDENT            17-NOV-81       5000                    10                                                                                                                                                                                                                                                                                                                                                                                                                               
+      7844 TURNER     SALESMAN        7698 08-SEP-81       1500          0         30                                                                                                                                                                                                                                                                                                                                                                                                                               
+      7876 ADAMS      CLERK           7788 23-MAY-87       1100                    20                                                                                                                                                                                                                                                                                                                                                                                                                               
+      7900 JAMES      CLERK           7698 03-DEC-81        950                    30                                                                                                                                                                                                                                                                                                                                                                                                                               
+      7902 FORD       ANALYST         7566 03-DEC-81       3000                    20                                                                                                                                                                                                                                                                                                                                                                                                                               
+      7934 MILLER     CLERK           7782 23-JAN-82       1300                    10                                                                                                                                                                                                                                                                                                                                                                                                                               
+
+14 rows selected.
+
+SQL> clear screen
+
+SQL> select * from emp;
+
+     EMPNO ENAME      JOB              MGR HIREDATE         SAL       COMM     DEPTNO                                                                                                                                                                                                                                                                                                                                                                                                                               
+---------- ---------- --------- ---------- --------- ---------- ---------- ----------                                                                                                                                                                                                                                                                                                                                                                                                                               
+      7369 SMITH      CLERK           7902 17-DEC-80        800                    20                                                                                                                                                                                                                                                                                                                                                                                                                               
+      7499 ALLEN      SALESMAN        7698 20-FEB-81       1600        300         30                                                                                                                                                                                                                                                                                                                                                                                                                               
+      7521 WARD       SALESMAN        7698 22-FEB-81       1250        500         30                                                                                                                                                                                                                                                                                                                                                                                                                               
+      7566 JONES      MANAGER         7839 02-APR-81       2975                    20                                                                                                                                                                                                                                                                                                                                                                                                                               
+      7654 MARTIN     SALESMAN        7698 28-SEP-81       1250       1400         30                                                                                                                                                                                                                                                                                                                                                                                                                               
+      7698 BLAKE      MANAGER         7839 01-MAY-81       2850                    30                                                                                                                                                                                                                                                                                                                                                                                                                               
+      7782 CLARK      MANAGER         7839 09-JUN-81       2450                    10                                                                                                                                                                                                                                                                                                                                                                                                                               
+      7788 SCOTT      ANALYST         7566 19-APR-87       3000                    20                                                                                                                                                                                                                                                                                                                                                                                                                               
+      7839 KING       PRESIDENT            17-NOV-81       5000                    10                                                                                                                                                                                                                                                                                                                                                                                                                               
+      7844 TURNER     SALESMAN        7698 08-SEP-81       1500          0         30                                                                                                                                                                                                                                                                                                                                                                                                                               
+      7876 ADAMS      CLERK           7788 23-MAY-87       1100                    20                                                                                                                                                                                                                                                                                                                                                                                                                               
+      7900 JAMES      CLERK           7698 03-DEC-81        950                    30                                                                                                                                                                                                                                                                                                                                                                                                                               
+      7902 FORD       ANALYST         7566 03-DEC-81       3000                    20                                                                                                                                                                                                                                                                                                                                                                                                                               
+      7934 MILLER     CLERK           7782 23-JAN-82       1300                    10                                                                                                                                                                                                                                                                                                                                                                                                                               
+
+14 rows selected.
+
+SQL> cls
+SP2-0042: unknown command "cls" - rest of line ignored.
+SQL> cl
+SQL> clear s
+SP2-0158: unknown CLEAR option "s"
+SQL> clsr
+SP2-0042: unknown command "clsr" - rest of line ignored.
+SQL> cl scr
+
+SQL> l
+  1* select * from emp
+SQL> clear buffer
+buffer cleared
+SQL> l
+SP2-0223: No lines in SQL buffer.
+SQL> wdit
+SP2-0042: unknown command "wdit" - rest of line ignored.
+SQL> edit
+SP2-0107: Nothing to save.
+SQL> se;ect *
+SP2-0042: unknown command "se;ect *" - rest of line ignored.
+SQL> select *
+  2  from emp
+  3  
+SQL> 
+SQL> select *
+  2  from tab
+  3  
+SQL> select *
+  2  
+SQL> edit
+Wrote file afiedt.buf
+
+  1* select *
+SQL> /
+select *
+       *
+ERROR at line 1:
+ORA-00923: FROM keyword not found where expected 
+
+
+SQL> /
+select *
+       *
+ERROR at line 1:
+ORA-00923: FROM keyword not found where expected 
+
+
+SQL> r
+  1* select *
+select *
+       *
+ERROR at line 1:
+ORA-00923: FROM keyword not found where expected 
+
+
+SQL> edit
+Wrote file afiedt.buf
+
+  1* select *
+SQL> 
+SQL> select *
+  2  from tab;
+
+TNAME                          TABTYPE  CLUSTERID                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+------------------------------ ------- ----------                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+BONUS                          TABLE                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+DEPT                           TABLE                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+EMP                            TABLE                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+SALGRADE                       TABLE                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+
+SQL> edit
+Wrote file afiedt.buf
+
+  1  select *
+  2* from tab
+SQL> /
+
+TNAME                          TABTYPE  CLUSTERID                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+------------------------------ ------- ----------                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+BONUS                          TABLE                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+DEPT                           TABLE                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+EMP                            TABLE                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+SALGRADE                       TABLE                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+
+SQL> descr emp
+ Name                                                                                                                                                                                                                                                                                                  Null?    Type
+ ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ EMPNO                                                                                                                                                                                                                                                                                                 NOT NULL NUMBER(4)
+ ENAME                                                                                                                                                                                                                                                                                                          VARCHAR2(10)
+ JOB                                                                                                                                                                                                                                                                                                            VARCHAR2(9)
+ MGR                                                                                                                                                                                                                                                                                                            NUMBER(4)
+ HIREDATE                                                                                                                                                                                                                                                                                                       DATE
+ SAL                                                                                                                                                                                                                                                                                                            NUMBER(7,2)
+ COMM                                                                                                                                                                                                                                                                                                           NUMBER(7,2)
+ DEPTNO                                                                                                                                                                                                                                                                                                         NUMBER(2)
+
+SQL> set linesize 100
+SQL> set pagesize 100
+SQL> descr
+Usage: DESCRIBE [schema.]object[@db_link]
+SQL> descr emp
+ Name                                                  Null?    Type
+ ----------------------------------------------------- -------- ------------------------------------
+ EMPNO                                                 NOT NULL NUMBER(4)
+ ENAME                                                          VARCHAR2(10)
+ JOB                                                            VARCHAR2(9)
+ MGR                                                            NUMBER(4)
+ HIREDATE                                                       DATE
+ SAL                                                            NUMBER(7,2)
+ COMM                                                           NUMBER(7,2)
+ DEPTNO                                                         NUMBER(2)
+
+SQL> cl scr
+
+SQL> select * from  tab;
+
+TNAME                          TABTYPE  CLUSTERID                                                   
+------------------------------ ------- ----------                                                   
+BONUS                          TABLE                                                                
+DEPT                           TABLE                                                                
+EMP                            TABLE                                                                
+SALGRADE                       TABLE                                                                
+
+SQL> descr emp;
+ Name                                                  Null?    Type
+ ----------------------------------------------------- -------- ------------------------------------
+ EMPNO                                                 NOT NULL NUMBER(4)
+ ENAME                                                          VARCHAR2(10)
+ JOB                                                            VARCHAR2(9)
+ MGR                                                            NUMBER(4)
+ HIREDATE                                                       DATE
+ SAL                                                            NUMBER(7,2)
+ COMM                                                           NUMBER(7,2)
+ DEPTNO                                                         NUMBER(2)
+
+SQL> hekp
+SP2-0042: unknown command "hekp" - rest of line ignored.
+SQL> help
+
+ HELP
+ ----
+
+ Accesses this command line help system. Enter HELP INDEX or ? INDEX
+ for a list of topics.
+
+ You can view SQL*Plus resources at
+     http://www.oracle.com/technology/tech/sql_plus/
+ and the Oracle Database Library at
+     http://www.oracle.com/technology/documentation/
+
+ HELP|? [topic]
+
+
+SQL> help set
+
+ SET
+ ---
+
+ Sets a system variable to alter the SQL*Plus environment settings
+ for your current session. For example, to:
+     -   set the display width for data
+     -   customize HTML formatting
+     -   enable or disable printing of column headings
+     -   set the number of lines per page
+
+ SET system_variable value
+
+ where system_variable and value represent one of the following clauses:
+
+   APPI[NFO]{OFF|ON|text}                   NEWP[AGE] {1|n|NONE}
+   ARRAY[SIZE] {15|n}                       NULL text
+   AUTO[COMMIT] {OFF|ON|IMM[EDIATE]|n}      NUMF[ORMAT] format
+   AUTOP[RINT] {OFF|ON}                     NUM[WIDTH] {10|n}
+   AUTORECOVERY {OFF|ON}                    PAGES[IZE] {14|n}
+   AUTOT[RACE] {OFF|ON|TRACE[ONLY]}         PAU[SE] {OFF|ON|text}
+     [EXP[LAIN]] [STAT[ISTICS]]             RECSEP {WR[APPED]|EA[CH]|OFF}
+   BLO[CKTERMINATOR] {.|c|ON|OFF}           RECSEPCHAR {_|c}
+   CMDS[EP] {;|c|OFF|ON}                    SERVEROUT[PUT] {ON|OFF}
+   COLSEP {_|text}                            [SIZE {n | UNLIMITED}]
+   CON[CAT] {.|c|ON|OFF}                      [FOR[MAT]  {WRA[PPED] |
+   COPYC[OMMIT] {0|n}                          WOR[D_WRAPPED] |
+   COPYTYPECHECK {ON|OFF}                      TRU[NCATED]}]
+   DEF[INE] {&|c|ON|OFF}                    SHIFT[INOUT] {VIS[IBLE] |
+   DESCRIBE [DEPTH {1|n|ALL}]                 INV[ISIBLE]}
+     [LINENUM {OFF|ON}] [INDENT {OFF|ON}]   SHOW[MODE] {OFF|ON}
+   ECHO {OFF|ON}                            SQLBL[ANKLINES] {OFF|ON}
+   EDITF[ILE] file_name[.ext]               SQLC[ASE] {MIX[ED] |
+   EMB[EDDED] {OFF|ON}                        LO[WER] | UP[PER]}
+   ERRORL[OGGING] {ON|OFF}                  SQLCO[NTINUE] {> | text}
+     [TABLE [schema.]tablename]             SQLN[UMBER] {ON|OFF}
+     [TRUNCATE] [IDENTIFIER identifier]     SQLPLUSCOMPAT[IBILITY] {x.y[.z]}
+   ESC[APE] {\|c|OFF|ON}                    SQLPRE[FIX] {#|c}
+   ESCCHAR {@|?|%|$|OFF}                    SQLP[ROMPT] {SQL>|text}
+   EXITC[OMMIT] {ON|OFF}                    SQLT[ERMINATOR] {;|c|ON|OFF}
+   FEED[BACK] {6|n|ON|OFF}                  SUF[FIX] {SQL|text}
+   FLAGGER {OFF|ENTRY|INTERMED[IATE]|FULL}  TAB {ON|OFF}
+   FLU[SH] {ON|OFF}                         TERM[OUT] {ON|OFF}
+   HEA[DING] {ON|OFF}                       TI[ME] {OFF|ON}
+   HEADS[EP] {||c|ON|OFF}                   TIMI[NG] {OFF|ON}
+   INSTANCE [instance_path|LOCAL]           TRIM[OUT] {ON|OFF}
+   LIN[ESIZE] {80|n}                        TRIMS[POOL] {OFF|ON}
+   LOBOF[FSET] {1|n}                        UND[ERLINE] {-|c|ON|OFF}
+   LOGSOURCE [pathname]                     VER[IFY] {ON|OFF}
+   LONG {80|n}                              WRA[P] {ON|OFF}
+   LONGC[HUNKSIZE] {80|n}                   XQUERY {BASEURI text|
+   MARK[UP] HTML [OFF|ON]                     ORDERING{UNORDERED|
+     [HEAD text] [BODY text] [TABLE text]              ORDERED|DEFAULT}|
+     [ENTMAP {ON|OFF}]                        NODE{BYVALUE|BYREFERENCE|
+     [SPOOL {OFF|ON}]                              DEFAULT}|
+     [PRE[FORMAT] {OFF|ON}]                   CONTEXT text}
+
+
+SQL> help edit
+
+ EDIT
+ ----
+
+ Invokes an operating system text editor on the contents of the
+ specified file or on the contents of the SQL buffer. The buffer
+ has no command history list and does not record SQL*Plus commands.
+
+ ED[IT] [file_name[.ext]]
+
+
+SQL> help
+
+ HELP
+ ----
+
+ Accesses this command line help system. Enter HELP INDEX or ? INDEX
+ for a list of topics.
+
+ You can view SQL*Plus resources at
+     http://www.oracle.com/technology/tech/sql_plus/
+ and the Oracle Database Library at
+     http://www.oracle.com/technology/documentation/
+
+ HELP|? [topic]
+
+
+SQL> select *
+  2  from dept
+  3  where deptno=20;
+
+    DEPTNO DNAME          LOC                                                                       
+---------- -------------- -------------                                                             
+        20 RESEARCH       DALLAS                                                                    
+
+SQL> edit
+Wrote file afiedt.buf
+
+  1  select *
+  2* from dept
+SQL> run
+  1  select *
+  2* from dept
+
+    DEPTNO DNAME          LOC                                                                       
+---------- -------------- -------------                                                             
+        10 ACCOUNTING     NEW YORK                                                                  
+        20 RESEARCH       DALLAS                                                                    
+        30 SALES          CHICAGO                                                                   
+        40 OPERATIONS     BOSTON                                                                    
+
+SQL> edit
+Wrote file afiedt.buf
+
+  1  select *
+  2  from dept
+  3* where deptno=20 or deptno=30
+SQL> /
+
+    DEPTNO DNAME          LOC                                                                       
+---------- -------------- -------------                                                             
+        20 RESEARCH       DALLAS                                                                    
+        30 SALES          CHICAGO                                                                   
+
+SQL> l 3
+  3* where deptno=20 or deptno=30
+SQL> del
+SQL> l
+  1  select *
+  2* from dept
+SQL> del
+SQL> /
+select *
+       *
+ERROR at line 1:
+ORA-00923: FROM keyword not found where expected 
+
+
+SQL> select *
+  2  from dept;
+
+    DEPTNO DNAME          LOC                                                                       
+---------- -------------- -------------                                                             
+        10 ACCOUNTING     NEW YORK                                                                  
+        20 RESEARCH       DALLAS                                                                    
+        30 SALES          CHICAGO                                                                   
+        40 OPERATIONS     BOSTON                                                                    
+
+SQL> save d:\Nabeelco\script\mys_1.txt
+Created file d:\Nabeelco\script\mys_1.txt
+SQL> save d:\Nabeelco\script\mys_1.sql
+Created file d:\Nabeelco\script\mys_1.sql
+SQL> run d:\Nabeelco\script\mys_1.sql
+  1  select *
+  2* from dept
+
+    DEPTNO DNAME          LOC                                                                       
+---------- -------------- -------------                                                             
+        10 ACCOUNTING     NEW YORK                                                                  
+        20 RESEARCH       DALLAS                                                                    
+        30 SALES          CHICAGO                                                                   
+        40 OPERATIONS     BOSTON                                                                    
+
+SQL> clear buffer
+buffer cleared
+SQL> run d:\Nabeelco\script\mys_1.sql
+SP2-0103: Nothing in SQL buffer to run.
+SQL> start d:\Nabeelco\script\mys_1.sql
+
+    DEPTNO DNAME          LOC                                                                       
+---------- -------------- -------------                                                             
+        10 ACCOUNTING     NEW YORK                                                                  
+        20 RESEARCH       DALLAS                                                                    
+        30 SALES          CHICAGO                                                                   
+        40 OPERATIONS     BOSTON                                                                    
+
+SQL> clear buffer
+buffer cleared
+SQL> @d:\Nabeelco\script\mys_1.sql
+
+    DEPTNO DNAME          LOC                                                                       
+---------- -------------- -------------                                                             
+        10 ACCOUNTING     NEW YORK                                                                  
+        20 RESEARCH       DALLAS                                                                    
+        30 SALES          CHICAGO                                                                   
+        40 OPERATIONS     BOSTON                                                                    
+
+SQL> spool off
